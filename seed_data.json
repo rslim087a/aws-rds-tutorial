@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "user_id": "user123",
+      "email": "user123@example.com",
+      "first_name": "John",
+      "last_name": "Doe"
+    },
+    {
+      "user_id": "user456",
+      "email": "user456@example.com",
+      "first_name": "Jane",
+      "last_name": "Smith"
+    },
+    {
+      "user_id": "user789",
+      "email": "user789@example.com",
+      "first_name": "Alice",
+      "last_name": "Johnson"
+    }
+  ],
+  "activity": [
+    {
+      "user_id": "user123",
+      "login_time": "2023-10-31 10:00:00",
+      "login_count": 5
+    },
+    {
+      "user_id": "user123",
+      "login_time": "2023-11-01 14:30:00",
+      "login_count": 3
+    },
+    {
+      "user_id": "user456",
+      "login_time": "2023-10-30 09:15:00",
+      "login_count": 2
+    },
+    {
+      "user_id": "user789",
+      "login_time": "2023-11-01 16:45:00",
+      "login_count": 1
+    }
+  ],
+  "preferences": [
+    {
+      "user_id": "user123",
+      "theme": "dark",
+      "notifications": true
+    },
+    {
+      "user_id": "user456",
+      "theme": "light",
+      "notifications": false
+    },
+    {
+      "user_id": "user789",
+      "theme": "blue",
+      "notifications": true
+    }
+  ]
+}
